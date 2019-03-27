@@ -26,4 +26,15 @@ router.get('/:id', (req, res) => {
           });
 })
 
+router.post('/', (req, res) => {
+    posts
+        .insert(req.body)
+        .then(res => {
+            res.json(res)
+        })
+        .catch(err => {
+            res.status(500).json({message: 'no access'});
+          });
+})
+
 module.exports = router;
