@@ -2,7 +2,7 @@
 
 In this challenge, you will **design** and build an API that satisfies the requirements listed under the `Minimum Viable Product` section.
 
-## Instructions
+## Instructions 
 
 **Read these instructions carefully. Understand exactly what is expected before starting.**
 
